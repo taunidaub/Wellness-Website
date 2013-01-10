@@ -1,0 +1,331 @@
+
+body {
+	margin: 0px;
+	padding: 0;
+	background: #c2dcfb url(../images/img01.jpg) repeat-x left top;
+	text-align: left;
+	font-family:  Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #737373;
+	background-color:#c2dcfb;
+}
+
+
+h1 {
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+h2 {
+	margin-top: 0;
+	font-size: 1.3em;
+}
+
+h3 {
+	margin-top: 0;
+	font-size: 1.2em;
+}
+
+h4 {
+	margin-top: 0;
+	font-size: 1.1em;
+}
+
+
+a {
+	text-decoration:underline;
+	color: #266aa6;
+}
+
+a:hover {
+	color:#53a926;
+	border-bottom: none;
+}
+
+a:visited {
+	color: #266aa6;
+
+}
+
+a img {
+	border: none;
+}
+
+
+#header {
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-top:-3em;
+	padding-bottom:1em;
+	height:2em;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 36px;
+	font-style:italic;
+	vertical-align:bottom;
+	color:#b92d30;
+}
+
+img {
+	vertical-align:top;
+	}
+
+/* Wrapper */
+
+#wrapper {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Page */
+
+#page {
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-top: 3em;
+	margin-bottom:3em;
+	padding: 6px 30px 0px 30px;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 4px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 55%;
+	margin: 0px 20px 20px 20px;
+	background: #FFFFFF;
+	font-size: 14px;
+	vertical-align:top;
+
+}
+
+.post {
+	padding-bottom: 15px;
+	line-height: 200%;
+	font-size:14px;
+
+}
+
+.title {
+	color:#b92d30;
+}
+
+.title_green {
+	margin: 0;
+	padding-top: 10px;
+	font-weight:bold;
+	color:#51aa1c; 
+}
+
+.title_red {
+	margin: 0;
+	padding-top: 10px;
+	font-weight:bold;
+	color:#b92d30;
+}
+
+.title_blue {
+	margin: 0;
+	padding-top: 10px;
+	font-weight:bold;
+	color:#266aa6;
+}
+
+.title_blue_a {
+	margin: 0;
+	padding-top: 10px;
+	font-weight:bold;
+	color:#266aa6;
+	cursor:pointer;
+	text-decoration:underline;
+}
+.title_green_a {
+	margin: 0;
+	padding-top: 10px;
+	font-weight:bold;
+	color:#51aa1c; 
+	cursor:pointer;
+	text-decoration:underline;
+}
+.pointer{
+	cursor:pointer;
+	}
+	
+.byline {
+	border-bottom: 1px #DCDCDC dashed;
+	font-size: 11px;
+	color:#666666;
+}
+
+.entry {
+	padding-bottom: 20px;
+	border-bottom: 1px #DCDCDC double;
+	font-size:14px;
+	color:#000099;
+
+}
+.entry a{
+	font-weight:bold;
+	border-bottom: thin;
+	font-size:14px;
+}
+.entry a:hover{
+	border-bottom: 1px #DCDCDC dashed;
+}
+
+.blog_post {
+	padding-bottom: 20px;
+	border-bottom: 1px #DCDCDC double;
+	font-size:14px;
+	}
+/* Sidebars */
+
+#sidebar1 {
+	float: left;
+	width:20%;
+	font-size: 12px;
+}
+
+#sidebar2 {
+	float: right;
+	width:20%;
+	font-size: 12px;
+	margin-top: 1em;
+}
+
+.sidebar {
+	float: left;
+	padding: 0;
+	color: #737373;
+}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar li {
+	padding: 0 0 20px 0;
+}
+
+.sidebar li ul {
+	background: #F7F7F7;
+	padding-bottom: 20px;
+}
+
+.sidebar li li {
+	margin: 0px 15px;
+	padding: 8px 0px;
+	border-bottom: 1px #DCDCDC dashed;
+	background: none;
+}
+
+
+.sidebar li h2 {
+	height: 26px;
+	background-color:#266aa6;
+	border-radius: 4px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 4px;
+	background: url(../images/bg.orig.gif) repeat-x; 
+	margin: 0 0 0 0;
+	padding-top:10px;
+	text-align:center;
+	font-size: 14px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000000;
+}
+
+.sidebar a {
+	color: #266aa6;
+}
+
+.sidebar a:hover {
+	color:#53a926;
+}
+
+.sidebar a:visited {
+	color: #b92d30;
+}
+
+
+/* Search */
+
+#searchform {
+	margin: 0;
+	padding: 0 0 20px 0;
+}
+
+#searchform br {
+	display: none;
+}
+
+#searchform h2 {
+}
+
+#s {
+	margin: 10px 0px 0 15px;
+	padding: 2px 2px;
+	width: 165px;
+	height: 18px;
+	border: 1px solid #CCCCCC;
+	background: #FFFFFF;
+	font-size: 10px;
+	color: #000000;
+}
+
+/* Footer */
+
+#footer {
+	margin-left: 3em;
+	margin-right: 3em;
+	padding: 6px 30px 0px 30px;
+	background-color: #FFFFFF;
+}
+
+#footer p {
+	margin: 0;
+	padding: 40px 0 0 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #737373;
+}
+
+#footer a {
+	color: #BDBDBD;
+}
+
+#footer .link {
+}
+
+#footer .copyright {
+}
+
+.button {
+    border: none;
+    background: url(../images/smlbutton.jpg) no-repeat top left;
+    padding: 2px 8px;
+}
+
+#tr,td {
+	margin: -4px 0px 20px 0px;
+	padding: 4px 0px;
+	border-bottom: 1px #DCDCDC dashed;
+	font-size: 14px;
+}
+#th{
+	text-align:center;
+	}
+
+#total {
+	font-weight:bold;
+}
+
